@@ -1,0 +1,218 @@
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.head
+{
+    margin-left: 40px;
+}
+.menuBar
+{
+    width: 100%;
+    height: 40px;
+    background: lightblue;
+}
+
+.hmenu
+{
+    list-style: none;
+    margin: 0;
+    margin-left: 40px;
+    padding-left: 0;
+}
+.hmenuItem
+{
+    cursor: pointer;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.hmenuItem:hover
+{
+    background: #FFFFFF;
+    color: lightblue;
+    border: 1px solid;
+    border-color: lightblue;
+    padding-top: 9px;
+}
+
+.content
+{
+    flex: 1 0 auto;
+    margin: 0 20px;
+}
+.footer
+{
+    flex: 0 0 auto;
+    height: 80px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 0;
+}
+.fcontent
+{
+    margin-top:10px;
+    border-top: 2px solid;
+    border-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.fcontent p
+{
+    margin-bottom: 2px;
+    margin-top:2px;
+}
+a
+{
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+.navbar_correct
+{
+    margin-left: 40px;
+}
+/*Registration form*/
+.register
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inp
+{
+    width: 250px;
+    border: 2px solid;
+    border-color: lightblue;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+.regButton
+{
+    height: 40px;
+    width: auto;
+    background: lightblue;
+    color: #FFFFFF;
+    border: none;
+    font-size:18px;
+    margin-top: -20px;
+}
+.regButton:hover
+{
+    background: #FFFFFF;
+    color: lightblue;
+}
+
+/**********Articles********/
+
+.articleContainer
+{
+    float: left;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
+
+.nextBtn
+{
+    text-align: center;
+    margin-top: 50px;
+    flex: 0 0 auto;
+}
+
+/****************categories******************/
+.catTree
+{
+    float: left;
+    margin-right: 0;
+    background: lightblue;
+    width: 250px;
+    min-height: 200px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+
+.treeHeader
+{
+    margin-top: 0;
+    width: 250px;
+    height: 27px;
+    font-size: 16px;
+    text-align: center;
+    background: blue;
+    color: #FFFFFF;
+}
+.catList
+{
+    width: 250px;
+    height:auto;
+    margin-top: 5px;
+}
+.catItem
+{
+    width: 250px;
+    height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #00b3ee;
+    margin-bottom: 2px;
+}
+/********article********/
+
+.oneArticle
+{
+    width: 100%;
+}
+.article
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+}
+.commentHeader
+{
+    margin-top: 40px;
+}
+.commentBody
+{
+    height: 20px;
+    width: 500px;
+    border: 0px;
+    border-radius: 5px;
+    background: lightgreen;
+    color: #FFFFFF;
+}
+
+/************admin********/
+.left
+{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.right
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: lightblue;
+
+}
+
+.adminContainer
+{
+    margin-top:15px;
+}
+
